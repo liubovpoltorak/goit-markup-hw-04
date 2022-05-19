@@ -25,6 +25,7 @@ html {
     --logo-web-color: #2196F3;
     --link-color: #2196F3;
     --main-button-color: #2196F3;
+    --bg-icon-color: #2196F3;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --hero-background-color: #2F303A;
     --footer-background-color: #2F303A;
@@ -241,6 +242,11 @@ p {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .container-hero {
@@ -389,28 +395,35 @@ p {
 }
 
 .employee-title {
+    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 19px;
+    letter-spacing: 0.03em;
     text-align: center;
     color: var(--title-text-color);
 }
 
 .position-team {
     margin: 0 auto;
+    margin-bottom: 16px;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 19px;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
 .team-soc-list {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .team-soc-item {
     margin-right: 10px;
+    margin-bottom: 30px;
     width: 44px;
     height: 44px;
 }
@@ -420,13 +433,13 @@ p {
 }
 
 .team-soc-link {
-    width: 100%;
-    height: 100%;
-    background-color: #FFFFFF;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
 }
 
 .team-soc-icon {
@@ -494,6 +507,10 @@ p {
     padding-top: 60px;
 }
 
+.footer-container {
+    display: flex;
+}
+
 .footer-link-logo {
     text-decoration: none;
     align-items: center;
@@ -553,6 +570,7 @@ p {
 }
 
 /*-------------footer join us----------*/
+
 
 .join-us-title {
     font-weight: 700;
