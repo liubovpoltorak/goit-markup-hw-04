@@ -509,6 +509,7 @@ p {
 
 .footer-container {
     display: flex;
+    margin-right: 70px;
 }
 
 .footer-link-logo {
@@ -669,6 +670,15 @@ p {
     margin: 0;
     }
 
+.services-link {
+    display: block;
+}
+
+.services-link:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .services-title {
     font-weight: 700;
