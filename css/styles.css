@@ -507,10 +507,11 @@ p {
     padding-top: 60px;
 }
 
-.footer-container {
+.basement-container {
     display: flex;
-    margin-right: 70px;
+    align-items: baseline;
 }
+
 
 .footer-link-logo {
     text-decoration: none;
@@ -572,6 +573,9 @@ p {
 
 /*-------------footer join us----------*/
 
+.join-us-footer {
+    margin-left: 70px;
+}
 
 .join-us-title {
     font-weight: 700;
