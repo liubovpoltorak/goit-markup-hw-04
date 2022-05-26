@@ -464,7 +464,7 @@ p {
 }
 
 .team-soc-link:focus .team-soc-icon {
-    fill: #ffffff;
+    fill: #e5e5e5;
 }
 
 /* --------------body regular clients line------*/
@@ -612,7 +612,6 @@ p {
 .join-us-title {
     display: flex;
     align-items: baseline;
-    justify-content: center;
 }
 
 .join-us-list {
